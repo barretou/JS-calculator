@@ -1,0 +1,40 @@
+#section1 button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: black;
+    color: $azul-color;
+
+        &:hover{
+        font-size: 2rem;
+        background-color: $verde-color;
+        color: rgb(250, 246, 246);
+        }
+
+        &:focus{
+        box-shadow: 0 0 0 0;
+        outline: 0;
+        }
+
+        &:last-child{
+        width: 100px;
+        height: 100px;
+        margin-top: 1rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        font-weight: 600;
+        background-color: black;
+        color: $azul-color;
+        }
+
+        &:last-child:hover{
+        margin-top: 1rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        font-weight: 600;
+        background-color: $vermelho-color;
+        color: rgb(242, 244, 248);
+        }   
+}

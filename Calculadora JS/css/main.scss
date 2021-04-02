@@ -1,0 +1,30 @@
+$azul-color: rgb(142, 178, 243);
+$verde-color: rgb(80, 10, 138);
+$vermelho-color: rgb(207, 54, 54);
+
+@import 'layout.scss';
+@import 'buttons.scss';
+@import 'inputs.scss';
+
+
+
+body{
+    background-color: $azul-color;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+#title{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#title i{
+    margin-right: 20px;
+}
+
+
+
+
