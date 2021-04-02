@@ -1,5 +1,5 @@
 <h1 align='center'>JS-calculator</h1>
 <p align = 'center'>
-  <img width='600px' height='560px' src=''/>
+  <img width='600px' height='560px' src='/assets/calculadoraJS.gif'/>
  </p>
-Calculadora com as 4 funções matemáticas básicas contruída com JS puro.
+<h3 align='center'>Calculadora com as 4 funções matemáticas básicas contruída com JS puro.</h3>
