@@ -1,0 +1,119 @@
+#general-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#section1 button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: black;
+  color: #8eb2f3;
+}
+#section1 button:hover {
+  font-size: 2rem;
+  background-color: #500a8a;
+  color: #faf6f6;
+}
+#section1 button:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+#section1 button:last-child {
+  width: 100px;
+  height: 100px;
+  margin-top: 1rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: black;
+  color: #8eb2f3;
+}
+#section1 button:last-child:hover {
+  margin-top: 1rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #cf3636;
+  color: #f2f4f8;
+}
+
+#numero1 {
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  background-color: #500a8a;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+#numero1:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+#numero2 {
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  background-color: #500a8a;
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#numero2:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+#result {
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  background-color: #500a8a;
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+body {
+  background-color: #8eb2f3;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+#title {
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+}
+
+#title i {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
